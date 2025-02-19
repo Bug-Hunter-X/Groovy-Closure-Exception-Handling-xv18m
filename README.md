@@ -1,0 +1,1 @@
+This example demonstrates an uncommon issue in Groovy related to exception handling within closures.  The `myMethod` function executes a provided closure. If the closure throws an exception, the code after the closure in `myMethod` does not execute.  The solution addresses this by implementing a `try-catch` block within `myMethod` to handle exceptions gracefully.
